@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F6767FC5-10CD-4C07-B05F-C60848F32EAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{268A356E-A170-4F2C-83C7-D61E6337CE82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PtoManagement.Core.Models", "PtoManagement.Core.Models\PtoManagement.Core.Models.csproj", "{54AEE59C-7AC2-4912-B4F6-322053AC2AC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PtoManagement.Core.Services", "PtoManagement.Core.Services\PtoManagement.Core.Services.csproj", "{D1FF583B-E364-4496-AD02-CFDA38720469}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PtoManagement.Infrasturcture.Data", "PtoManagement.Infrasturcture.Data\PtoManagement.Infrasturcture.Data.csproj", "{124EF707-6BA1-46C9-960B-76C2D9645C6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PtoManagementApi", "PtoManagementApi\PtoManagementApi.csproj", "{9E869136-328E-465C-B343-5FF72F883944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{57AB90AF-502F-4505-984F-13F362894AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54AEE59C-7AC2-4912-B4F6-322053AC2AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54AEE59C-7AC2-4912-B4F6-322053AC2AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54AEE59C-7AC2-4912-B4F6-322053AC2AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54AEE59C-7AC2-4912-B4F6-322053AC2AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FF583B-E364-4496-AD02-CFDA38720469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FF583B-E364-4496-AD02-CFDA38720469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FF583B-E364-4496-AD02-CFDA38720469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FF583B-E364-4496-AD02-CFDA38720469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{124EF707-6BA1-46C9-960B-76C2D9645C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{124EF707-6BA1-46C9-960B-76C2D9645C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{124EF707-6BA1-46C9-960B-76C2D9645C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{124EF707-6BA1-46C9-960B-76C2D9645C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E869136-328E-465C-B343-5FF72F883944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E869136-328E-465C-B343-5FF72F883944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E869136-328E-465C-B343-5FF72F883944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E869136-328E-465C-B343-5FF72F883944}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54AEE59C-7AC2-4912-B4F6-322053AC2AC0} = {F6767FC5-10CD-4C07-B05F-C60848F32EAC}
+		{D1FF583B-E364-4496-AD02-CFDA38720469} = {F6767FC5-10CD-4C07-B05F-C60848F32EAC}
+		{124EF707-6BA1-46C9-960B-76C2D9645C6D} = {268A356E-A170-4F2C-83C7-D61E6337CE82}
+		{9E869136-328E-465C-B343-5FF72F883944} = {57AB90AF-502F-4505-984F-13F362894AFA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9436674D-D86D-4F80-B1DA-0A3043E10A5C}
+	EndGlobalSection
+EndGlobal
